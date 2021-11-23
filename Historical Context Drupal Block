@@ -1,0 +1,24 @@
+<div class="modal" id="historical" role="dialog" tabindex="-1">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Content Warning: This item has been flagged as containing racist or offensive content.</h5>
+<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button></div>
+
+<div class="modal-body">
+<p>Through our digital repository, Penrose Library offers access to a wide range of information, including historical materials that may contain offensive language or images, or negative stereotypes. Such materials should be viewed in the context of the time period in which they were produced. Penrose Library does not endorse the views expressed in such materials. If you have questions or need further assistance, please email <a href="mailto:arminda@whitman.edu">arminda@whitman.edu</a>.</p>
+</div>
+
+<div class="modal-footer"><button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button></div>
+</div>
+</div>
+</div>
+
+<p>Through our digital repository, Penrose Library offers access to a wide range of information, including historical materials that may contain offensive language or images, or negative stereotypes. Such materials should be viewed in the context of the time period in which they were produced. Penrose Library does not endorse the views expressed in such materials. If you have questions or need further assistance, please email <a href="mailto:arminda@whitman.edu">arminda@whitman.edu</a>.</p>
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+jQuery( document ).ready(function() {
+       jQuery('#historical').modal();
+});
+});
+</script>
